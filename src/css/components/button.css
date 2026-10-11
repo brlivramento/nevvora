@@ -1,0 +1,7 @@
+/* Nevvora · button */
+.nv-btn{border:1px solid var(--nv-border);background:var(--nv-surface);padding:10px 18px;border-radius:10px;box-shadow:0 3px 9px #28324806;transition:transform .15s,box-shadow .15s}
+.nv-btn:hover{box-shadow:0 5px 15px #28324810;transform:translateY(-1px)}
+.nv-btn--primary{background:var(--nv-accent);border-color:var(--nv-accent);color:#fff}
+.nv-btn--ghost{background:transparent;box-shadow:none;border-color:transparent}
+.nv-btn--small{padding:6px 12px;font-size:13px}
+.nv-btn--danger{color:#ad5063;background:#fff8fa}

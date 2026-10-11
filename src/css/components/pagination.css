@@ -1,0 +1,3 @@
+/* Nevvora · pagination */
+.nv-pagination{display:flex;gap:6px}
+.nv-pagination [aria-current=page]{background:#eef3ef;color:var(--nv-accent)}

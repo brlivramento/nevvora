@@ -1,0 +1,6 @@
+/* Nevvora · table */
+.nv-table-wrap{overflow:auto;border:1px solid var(--nv-border);border-radius:11px}
+table{width:100%;border-collapse:collapse;white-space:nowrap;text-align:left;font-size:13px}
+th{font-weight:500;background:#fafbfc;color:var(--nv-muted)}
+th,td{padding:13px 16px;border-bottom:1px solid var(--nv-border)}
+tbody tr:last-child td{border-bottom:0}

@@ -1,0 +1,5 @@
+/* Nevvora · accordion */
+.nv-accordion{border:1px solid var(--nv-border);border-radius:11px;overflow:hidden}
+.nv-accordion details+details{border-top:1px solid var(--nv-border)}
+summary{padding:14px 16px;cursor:pointer}
+details p{padding:0 16px 17px;font-size:13px;color:var(--nv-muted)}

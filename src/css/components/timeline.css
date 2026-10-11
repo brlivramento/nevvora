@@ -1,0 +1,5 @@
+/* Nevvora · timeline */
+.nv-timeline{border-left:1px solid var(--nv-border);padding-left:22px;margin-left:6px}
+.nv-timeline>div{position:relative;padding:0 0 20px;font-size:13px}
+.nv-timeline>div:before{content:"";position:absolute;left:-27px;top:7px;width:9px;height:9px;border-radius:50%;background:#9caf9f;border:2px solid white;box-shadow:0 0 0 1px #dfe7e0}
+.nv-timeline small{display:block}

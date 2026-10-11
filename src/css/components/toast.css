@@ -1,0 +1,2 @@
+/* Nevvora · toast */
+.nv-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);padding:14px 22px;border-radius:12px;box-shadow:var(--nv-shadow);background:var(--nv-surface);border:1px solid var(--nv-border);z-index:20;max-width:calc(100% - 30px)}

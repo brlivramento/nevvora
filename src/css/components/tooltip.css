@@ -1,0 +1,4 @@
+/* Nevvora · tooltip */
+.nv-tooltip{position:relative}
+.nv-tooltip span{display:none;position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);width:max-content;background:#303747;color:white;padding:6px 10px;border-radius:7px;font-size:12px;z-index:3}
+.nv-tooltip:hover span,.nv-tooltip:focus-visible span{display:block}

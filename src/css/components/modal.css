@@ -1,0 +1,3 @@
+/* Nevvora · modal */
+dialog{padding:28px;max-width:440px;width:calc(100% - 40px);color:var(--nv-text)}
+dialog::backdrop{background:#26324735;backdrop-filter:blur(3px)}

@@ -1,0 +1,4 @@
+/* Nevvora · card */
+.nv-card,.nv-popover,dialog{background:var(--nv-surface);border:1px solid #f1f2f5;border-radius:var(--nv-radius);box-shadow:var(--nv-shadow)}
+.nv-card{padding:28px;min-width:0}
+.nv-card>header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:24px}

@@ -1,0 +1,13 @@
+/* Nevvora · utilities */
+.nv-muted,small{color:var(--nv-muted)}
+.nv-number{font:12px monospace;color:#949ba7}
+.nv-list{list-style:none;margin:0;padding:0}
+.nv-list li{display:flex;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid var(--nv-border)}
+.nv-list li:last-child{border:0}
+.nv-list small{display:block}
+.nv-list .nv-badge{margin-left:auto}
+.nv-stat{font-size:35px;letter-spacing:-1px;margin:10px 0}
+.nv-divider{border:0;border-top:1px solid var(--nv-border);margin:20px 0}
+.nv-code{background:#f7f8fb;border:1px solid var(--nv-border);border-radius:10px;padding:16px;font:12px/1.7 monospace;overflow:auto;white-space:pre-wrap}
+@media(max-width:740px){.nv-grid{grid-template-columns:1fr}.nv-shell{padding:0 18px}.nv-card{padding:22px}.nv-hero{padding-top:45px}.nv-nav .nv-muted{display:none}.nv-two{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*,*:before{animation:none!important;transition:none!important}}

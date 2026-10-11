@@ -1,0 +1,5 @@
+/* Nevvora · progress */
+.nv-progress{height:7px;appearance:none;width:100%;border:0;border-radius:10px;overflow:hidden;background:#edf0f5}
+.nv-progress::-webkit-progress-bar{background:#edf0f5}
+.nv-progress::-webkit-progress-value{background:var(--nv-accent);border-radius:10px}
+.nv-progress::-moz-progress-bar{background:var(--nv-accent)}

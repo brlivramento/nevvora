@@ -1,0 +1,5 @@
+/* Nevvora · tabs */
+.nv-tabs{display:flex;padding:4px;background:#f5f6f9;border:1px solid var(--nv-border);border-radius:11px;gap:4px}
+.nv-tab{flex:1;border:0;border-radius:8px;padding:9px;background:transparent;font-size:13px;color:var(--nv-muted)}
+.nv-tab[aria-selected=true]{background:var(--nv-surface);box-shadow:0 2px 6px #2832480b;color:var(--nv-text)}
+.nv-tabpanel{padding:20px 0 0;min-height:96px}

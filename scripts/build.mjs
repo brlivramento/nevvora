@@ -1,0 +1,13 @@
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+const root = fileURLToPath(new URL('../', import.meta.url));
+const entry = await readFile(path.join(root, 'src/css/nevvora.css'), 'utf8');
+const css = [];
+for (const match of entry.matchAll(/@import "([^"]+)";/g)) css.push(await readFile(path.join(root, 'src/css', match[1]), 'utf8'));
+const js = [];
+for (const name of ['components/toast.js', 'components/modal.js', 'components/tabs.js', 'components/dropdown.js', 'nevvora.js']) js.push(await readFile(path.join(root, 'src/js', name), 'utf8'));
+await mkdir(path.join(root, 'dist'), {recursive:true});
+await writeFile(path.join(root, 'dist/nevvora.css'), css.join('\n'));
+await writeFile(path.join(root, 'dist/nevvora.js'), js.join('\n'));
+console.log('Nevvora: CSS e JS gerados em dist/.');

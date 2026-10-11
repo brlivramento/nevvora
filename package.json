@@ -1,0 +1,15 @@
+{
+  "name": "nevvora",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CSS suave, bordas delicadas e sombras discretas.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "python3 -m http.server 8080"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "style": "dist/nevvora.css"
+}

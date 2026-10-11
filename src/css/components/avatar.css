@@ -1,0 +1,4 @@
+/* Nevvora · avatar */
+.nv-avatar{width:39px;height:39px;display:grid;place-items:center;border-radius:50%;background:#eef3ef;color:#657b6b;border:3px solid white;box-shadow:0 2px 8px #28324809;font-size:12px}
+.nv-avatars{display:flex;padding-left:7px}
+.nv-avatars .nv-avatar{margin-left:-7px}

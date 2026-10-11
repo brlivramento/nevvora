@@ -1,0 +1,3 @@
+/* Nevvora · alert */
+.nv-alert{padding:16px;border:1px solid var(--nv-border);border-radius:11px;display:flex;gap:13px;background:#fafbfe;font-size:13px}
+.nv-alert strong{display:block;margin-bottom:3px}

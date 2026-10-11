@@ -1,0 +1,13 @@
+/* Nevvora · form */
+.nv-field{display:grid;gap:7px;font-size:13px}
+.nv-input{width:100%;min-width:0;border:1px solid var(--nv-border);background:var(--nv-surface);border-radius:10px;padding:11px 13px;box-shadow:var(--nv-inset);outline:none;transition:border-color .15s,box-shadow .15s}
+.nv-input:focus{border-color:var(--nv-accent);box-shadow:var(--nv-ring)}
+textarea{resize:vertical}
+.nv-input[aria-invalid=true]{border-color:#c97886}
+.nv-error{color:#ac4f62}
+.nv-check{display:flex;align-items:center;gap:10px}
+input[type=checkbox],input[type=radio],input[type=range]{accent-color:var(--nv-accent)}
+.nv-switch{appearance:none;width:40px;height:23px;border-radius:30px;background:#e1e5ed;position:relative;cursor:pointer;transition:background .2s}
+.nv-switch:before{content:"";position:absolute;width:17px;height:17px;top:3px;left:3px;border-radius:50%;background:white;box-shadow:0 2px 4px #0002;transition:transform .2s}
+.nv-switch:checked{background:var(--nv-accent)}
+.nv-switch:checked:before{transform:translateX(17px)}

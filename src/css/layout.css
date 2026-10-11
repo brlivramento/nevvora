@@ -1,0 +1,11 @@
+/* Nevvora · layout */
+.nv-shell{max-width:1180px;margin:auto;padding:0 28px}
+.nv-nav{display:flex;align-items:center;justify-content:space-between;padding:25px 0;border-bottom:1px solid var(--nv-border);gap:20px}
+.nv-brand{font-size:23px;letter-spacing:-1px;font-weight:650}
+.nv-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.nv-stack{display:grid;gap:16px}
+.nv-hero{padding:70px 0 48px;max-width:740px}
+.nv-hero p{margin-top:20px;font-size:17px;color:var(--nv-muted)}
+.nv-eyebrow{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--nv-muted);margin-bottom:18px}
+.nv-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.nv-two{display:grid;grid-template-columns:1fr 1fr;gap:14px}

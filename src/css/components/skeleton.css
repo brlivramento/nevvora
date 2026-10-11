@@ -1,0 +1,3 @@
+/* Nevvora · skeleton */
+.nv-skeleton{height:12px;background:linear-gradient(90deg,#f0f2f6,#fafbfc,#f0f2f6);background-size:200% 100%;border-radius:6px;animation:shimmer 2s linear infinite}
+@keyframes shimmer{to{background-position:-200% 0}}
